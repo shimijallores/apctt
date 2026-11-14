@@ -1,0 +1,27 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+
+# Environments, models, data (large, rebuilt locally)
+apctt-env/
+models/
+public_cases/
+my_cases/
+server_data/
+**/server_data/
+
+# Submission output
+*_submission.zip
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Secrets
+.env
